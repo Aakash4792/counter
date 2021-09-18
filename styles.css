@@ -1,0 +1,41 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    color : white;
+}
+html,body{
+    display: 100%;
+    background-color: grey;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 70%;
+    min-width: 300px;
+    border : 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto ;
+    padding: 50px;
+}
+.text{
+    font-size: 2rem;
+}
+.count{
+    font-size: 7rem;
+}
+button{
+    color : black;
+    border : 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
